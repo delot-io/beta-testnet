@@ -1,0 +1,18 @@
+type Player @entity {
+  id: ID!
+  address: Bytes!  
+  roundId: BigInt!  
+  depositAmount: BigInt!
+  depositTickets: BigInt!
+  holdAmount: BigInt!
+  holdTickets: BigInt!
+  tickets: BigInt!    
+}
+
+type AutoPoolPlayerJoiningHistory @entity {
+  id: ID!
+  address: Bytes!  
+  roundId: BigInt!  
+  amount: BigInt!
+  transactionHash: Bytes!
+}

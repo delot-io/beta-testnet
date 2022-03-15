@@ -1,0 +1,16 @@
+{
+  "name": "lottery-beta",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ delot-io/lottery-beta",
+    "create-local": "graph create --node http://localhost:8020/ delot-io/lottery-beta",
+    "remove-local": "graph remove --node http://localhost:8020/ delot-io/lottery-beta",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 delot-io/lottery-beta"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.26.0",
+    "@graphprotocol/graph-ts": "0.24.1"
+  }
+}
