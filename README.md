@@ -1,5 +1,4 @@
-# beta-testnet
-Beta version of DELOT on Binance Smart Chain Testnet.
+# Beta version of DELOT on Binance Smart Chain Testnet
 
 More details here: https://docs.delot.io/beta-test/overview
 
